@@ -29,6 +29,6 @@ uvicorn src.main:app --reload
 2. 使用 `pip` 安裝必要的依賴。
 3. 使用 `uvicorn src.main:app --reload` 啟動 FastAPI 伺服器。
 
-伺服器啟動後，API 可通過 `http://127.0.0.1:8000` 訪問。
+伺服器啟動後，API 可通過 `http://127.0.0.1:8000` 訪問。  
 可以使用`http://127.0.0.1:8000/docs`開啟swagger
 
