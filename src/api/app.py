@@ -9,7 +9,7 @@ def get_helloworld():
     return get_helloworld_contorller()
 
 
-@helloworld.post("/helloworld/")
+@helloworld.post("/helloworld")
 def post_helloworld(item:Item):
     return post_helloworld_controller(item)
     
