@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from ..repositories.helloworld_repository import write_helloworld_into_json
+from src.repositories.helloworld_repository import write_helloworld_into_json
 
 
 class Item(BaseModel):

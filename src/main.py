@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from .api.app import helloworld
+from src.api.app import helloworld
 
 app = FastAPI()
 
